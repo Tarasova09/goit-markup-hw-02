@@ -42,7 +42,6 @@ h4,
 h5,
 h6 {
   margin: 0;
-  font-family: "Roboto", sans-serif;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -69,7 +68,9 @@ h6 {
 }
 
 .logo {
-  font: 700 26px/1.19 "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   margin-right: 93px;
 }
@@ -123,7 +124,9 @@ h6 {
 
 .hero h1 {
   text-transform: uppercase;
-  font: 900 44px/1.36 "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
   margin-bottom: 30px;
 }
 
