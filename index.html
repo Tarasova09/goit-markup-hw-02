@@ -10,11 +10,11 @@
   </head>
   <body>
     <header class="header flex container">
-      <nav class="nav flex">
+      <nav class="nav flex" id="top">
         <a href="./index.html" class="logo"><span>Web</span>Studio</a>
         <ul class="header-nav flex">
-          <li><a href="./index.html">Студия</a></li>
-          <li><a href="./portfolio.html">Портфолио</a></li>
+          <li><a id="index" href="./index.html#index" class="current">Студия</a></li>
+          <li><a id="portfolio" href="./portfolio.html#portfolio" class="current">Портфолио</a></li>
           <li><a href="#address">Контакты</a></li>
         </ul>
       </nav>
@@ -112,11 +112,11 @@
       </section>
     </main>
     <footer class="footer container">
-      <a href="./index.html" class="logo"><span>Web</span>Studio</a>
+      <a href="#top" class="logo"><span>Web</span>Studio</a>
       <address>
         <ul class="footer-contacts">
           <li>
-            <a href="#" id="address">г. Киев, пр-т Леси Украинки, 26</a>
+            <a href="map" id="address">г. Киев, пр-т Леси Украинки, 26</a>
           </li>
           <li><a href="mailto:info@devstudio.com"> info@example.com </a></li>
           <li><a href="tel:+380961111111"> +38 099 111 11 11 </a></li>
