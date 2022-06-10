@@ -137,24 +137,29 @@ h6 {
 }
 
 .hero {
+ 
   max-width: 1600px;
   width: 100%;
   padding: 200px 0;
   text-align: center;
-}
+ }
 
 .hero h1,
 .hero .btn {
   letter-spacing: 0.06em;
   color: var(--primary-color);
+ 
 }
 
 .hero h1 {
+  display: block;
   text-transform: uppercase;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  margin-bottom: 30px;
+  display: block;
+  width: 700px;
+  margin: 0 auto 30px;
   
 }
 
